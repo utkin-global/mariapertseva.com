@@ -208,3 +208,31 @@ footer{
   .hero-actions .btn{width:100%}
   footer{display:block}
 }
+
+/* Trust section */
+
+.trust {
+  padding: 40px 0 20px;
+}
+
+.trust h2 {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.trust-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.trust-card {
+  background: #fff;
+  border: 1px solid #eadfd8;
+  border-radius: 20px;
+  padding: 24px;
+  text-align: center;
+  font-weight: 500;
+  color: #444;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+}
